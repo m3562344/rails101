@@ -7,8 +7,12 @@ Rails.application.routes.draw do
       post :join
     end
 
-    
+
     resources :posts
+  end
+
+  namespace :account do
+    resources :groups
   end
 
 
