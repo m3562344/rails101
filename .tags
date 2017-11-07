@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ApplicationMailer	/Users/myr/MYRwork/rails101/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	class	line:1
+ApplicationRecord	/Users/myr/MYRwork/rails101/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	class	line:1
+ApplicationJob	/Users/myr/MYRwork/rails101/app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	class	line:1
+ApplicationController	/Users/myr/MYRwork/rails101/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/myr/MYRwork/rails101/app/assets/stylesheets/application.css	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
+ApplicationHelper	/Users/myr/MYRwork/rails101/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	module	line:1
+ApplicationCable	/Users/myr/MYRwork/rails101/app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	module	line:1
+Connection	/Users/myr/MYRwork/rails101/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	class	line:2	class:ApplicationCable
+ApplicationCable	/Users/myr/MYRwork/rails101/app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	module	line:1
+Channel	/Users/myr/MYRwork/rails101/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	class	line:2	class:ApplicationCable
+ActiveSupport	/Users/myr/MYRwork/rails101/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	class	line:5
+system!	/Users/myr/MYRwork/rails101/bin/update	/^def system!(*args)$/;"	method	line:9
+system!	/Users/myr/MYRwork/rails101/bin/setup	/^def system!(*args)$/;"	method	line:9
+development	/Users/myr/MYRwork/rails101/config/secrets.yml	/^development:$/;"	function	line:13
+secret_key_base	/Users/myr/MYRwork/rails101/config/secrets.yml	/^  secret_key_base: aef882d7bb9c117ae7a0bd3ab9ecc7b333ef6cdc6db873e4574b4945adf16f74329262167149dc92313ba1ecd04cceca684bb4aebe71c1610362e2d46721f25b$/;"	function	line:14
+test	/Users/myr/MYRwork/rails101/config/secrets.yml	/^test:$/;"	function	line:16
+secret_key_base	/Users/myr/MYRwork/rails101/config/secrets.yml	/^  secret_key_base: 4188e4747f1e7d3a6e8f40a4e0b92253e74ea6e2a875bba40e107e5ed7825b71a20457ff516c2b63469712e370a8b255cdadd98be8e3ac79bd17d30ca128f889$/;"	function	line:17
+production	/Users/myr/MYRwork/rails101/config/secrets.yml	/^production:$/;"	function	line:21
+secret_key_base	/Users/myr/MYRwork/rails101/config/secrets.yml	/^  secret_key_base: <%= ENV["SECRET_KEY_BASE"] %>$/;"	function	line:22
+en	/Users/myr/MYRwork/rails101/config/locales/en.yml	/^en:$/;"	function	line:22
+hello	/Users/myr/MYRwork/rails101/config/locales/en.yml	/^  hello: "Hello world"$/;"	function	line:23
+development	/Users/myr/MYRwork/rails101/config/cable.yml	/^development:$/;"	function	line:1
+adapter	/Users/myr/MYRwork/rails101/config/cable.yml	/^  adapter: async$/;"	function	line:2
+test	/Users/myr/MYRwork/rails101/config/cable.yml	/^test:$/;"	function	line:4
+adapter	/Users/myr/MYRwork/rails101/config/cable.yml	/^  adapter: async$/;"	function	line:5
+production	/Users/myr/MYRwork/rails101/config/cable.yml	/^production:$/;"	function	line:7
+adapter	/Users/myr/MYRwork/rails101/config/cable.yml	/^  adapter: redis$/;"	function	line:8
+url	/Users/myr/MYRwork/rails101/config/cable.yml	/^  url: redis:\/\/localhost:6379\/1$/;"	function	line:9
+Rails101	/Users/myr/MYRwork/rails101/config/application.rb	/^module Rails101$/;"	module	line:9
+Application	/Users/myr/MYRwork/rails101/config/application.rb	/^  class Application < Rails::Application$/;"	class	line:10	class:Rails101
+default	/Users/myr/MYRwork/rails101/config/database.yml	/^default: &default$/;"	function	line:7
+adapter	/Users/myr/MYRwork/rails101/config/database.yml	/^  adapter: sqlite3$/;"	function	line:8
+pool	/Users/myr/MYRwork/rails101/config/database.yml	/^  pool: 5$/;"	function	line:9
+timeout	/Users/myr/MYRwork/rails101/config/database.yml	/^  timeout: 5000$/;"	function	line:10
+development	/Users/myr/MYRwork/rails101/config/database.yml	/^development:$/;"	function	line:12
+database	/Users/myr/MYRwork/rails101/config/database.yml	/^  database: db\/development.sqlite3$/;"	function	line:14
+test	/Users/myr/MYRwork/rails101/config/database.yml	/^test:$/;"	function	line:19
+database	/Users/myr/MYRwork/rails101/config/database.yml	/^  database: db\/test.sqlite3$/;"	function	line:21
+production	/Users/myr/MYRwork/rails101/config/database.yml	/^production:$/;"	function	line:23
+database	/Users/myr/MYRwork/rails101/config/database.yml	/^  database: db\/production.sqlite3$/;"	function	line:25
+README	/Users/myr/MYRwork/rails101/README.md	/^# README$/;"	function	line:1
+html	/Users/myr/MYRwork/rails101/public/422.html	/^<html>$/;"	function	line:2
+head	/Users/myr/MYRwork/rails101/public/422.html	/^<head>$/;"	function	line:3
+title	/Users/myr/MYRwork/rails101/public/422.html	/^  <title>The change you wanted was rejected (422)<\/title>$/;"	function	line:4
+meta	/Users/myr/MYRwork/rails101/public/422.html	/^  <meta name="viewport" content="width=device-width,initial-scale=1">$/;"	function	line:5
+style	/Users/myr/MYRwork/rails101/public/422.html	/^  <style>$/;"	function	line:6
+body	/Users/myr/MYRwork/rails101/public/422.html	/^<body class="rails-default-error-page">$/;"	function	line:57
+div	/Users/myr/MYRwork/rails101/public/422.html	/^  <div class="dialog">$/;"	function	line:59
+div	/Users/myr/MYRwork/rails101/public/422.html	/^    <div>$/;"	function	line:60
+h	/Users/myr/MYRwork/rails101/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	function	line:61
+p	/Users/myr/MYRwork/rails101/public/422.html	/^      <p>Maybe you tried to change something you didn't have access to.<\/p>$/;"	function	line:62
+p	/Users/myr/MYRwork/rails101/public/422.html	/^    <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:64
+html	/Users/myr/MYRwork/rails101/public/500.html	/^<html>$/;"	function	line:2
+head	/Users/myr/MYRwork/rails101/public/500.html	/^<head>$/;"	function	line:3
+title	/Users/myr/MYRwork/rails101/public/500.html	/^  <title>We're sorry, but something went wrong (500)<\/title>$/;"	function	line:4
+meta	/Users/myr/MYRwork/rails101/public/500.html	/^  <meta name="viewport" content="width=device-width,initial-scale=1">$/;"	function	line:5
+style	/Users/myr/MYRwork/rails101/public/500.html	/^  <style>$/;"	function	line:6
+body	/Users/myr/MYRwork/rails101/public/500.html	/^<body class="rails-default-error-page">$/;"	function	line:57
+div	/Users/myr/MYRwork/rails101/public/500.html	/^  <div class="dialog">$/;"	function	line:59
+div	/Users/myr/MYRwork/rails101/public/500.html	/^    <div>$/;"	function	line:60
+h	/Users/myr/MYRwork/rails101/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	function	line:61
+p	/Users/myr/MYRwork/rails101/public/500.html	/^    <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:63
+html	/Users/myr/MYRwork/rails101/public/404.html	/^<html>$/;"	function	line:2
+head	/Users/myr/MYRwork/rails101/public/404.html	/^<head>$/;"	function	line:3
+title	/Users/myr/MYRwork/rails101/public/404.html	/^  <title>The page you were looking for doesn't exist (404)<\/title>$/;"	function	line:4
+meta	/Users/myr/MYRwork/rails101/public/404.html	/^  <meta name="viewport" content="width=device-width,initial-scale=1">$/;"	function	line:5
+style	/Users/myr/MYRwork/rails101/public/404.html	/^  <style>$/;"	function	line:6
+body	/Users/myr/MYRwork/rails101/public/404.html	/^<body class="rails-default-error-page">$/;"	function	line:57
+div	/Users/myr/MYRwork/rails101/public/404.html	/^  <div class="dialog">$/;"	function	line:59
+div	/Users/myr/MYRwork/rails101/public/404.html	/^    <div>$/;"	function	line:60
+h	/Users/myr/MYRwork/rails101/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	function	line:61
+p	/Users/myr/MYRwork/rails101/public/404.html	/^      <p>You may have mistyped the address or the page may have moved.<\/p>$/;"	function	line:62
+p	/Users/myr/MYRwork/rails101/public/404.html	/^    <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:64
